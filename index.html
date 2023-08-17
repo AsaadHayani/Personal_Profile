@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asaad Hayani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="settings-box">
+        <div class="toggle-settings">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <div class="colors-list">
+                    <ul>
+                        <li data-color="#ff9800" class="active"></li>
+                        <li data-color="#e91e63"></li>
+                        <li data-color="#009688"></li>
+                        <li data-color="#03a9f4"></li>
+                        <li data-color="#4caf50"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Random Backgrounds</h4>
+                <div class="random-back">
+                    <span class="yes active" data-back="yes">Yes</span>
+                    <span class="no" data-back="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">show</span>
+                    <span class="no" data-display="hide">hide</span>
+                </div>
+            </div>
+            <button class="reset">Reset</button>
+        </div>
+    </section>
+
+    <section class="nav-bullets">
+        <div class="bullet" data-section=".home">
+            <div class="tooltip">Home</div>
+        </div>
+        <div class="bullet" data-section=".about">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </section>
+
+    <section class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Asaad Hayani</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".home">Home</a></li>
+                        <li><a href="#" data-section=".about">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+                </div>
+            </div>
+        </div>
+        <div class="intro-text">
+            <h1>Welcome to Website <span>Asaad Hayani</span></h1>
+            <p>Full Stack Web Developer | Laravel and React.js</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="about">
+            <div class="info">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam doloremque porro nam temporibus nulla dolore vel id provident illum. Eius, amet? Quisquam quis cumque impedit eaque perspiciatis velit obcaecati ullam!
+                </p>
+            </div>
+            <div class="img">
+                <img src="images/me.png" alt="" />
+            </div>
+        </section>
+    </div>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills Me</h2>
+            <div class="skill">
+                <div class="name">HTML, CSS, JS</div>
+                <div class="progress">
+                    <span data-progress="99%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">Bootstrap</div>
+                <div class="progress">
+                    <span data-progress="95%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">React.js</div>
+                <div class="progress">
+                    <span data-progress="95%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">Laravel</div>
+                <div class="progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">MySQL</div>
+                <div class="progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">PHP</div>
+                <div class="progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline">
+        <div class="container">
+            <div class="contents">
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consectetur molestias a fugit culpa laudantium aliquam quasi minus laboriosam ullam mollitia consequuntur, corrupti numquam, inventore, obcaecati voluptatibus qui! Aliquid, delectus?
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consectetur molestias a fugit culpa laudantium aliquam quasi minus laboriosam ullam mollitia consequuntur, corrupti numquam, inventore, obcaecati voluptatibus qui! Aliquid, delectus?
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consectetur molestias a fugit culpa laudantium aliquam quasi minus laboriosam ullam mollitia consequuntur, corrupti numquam, inventore, obcaecati voluptatibus qui! Aliquid, delectus?
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consectetur molestias a fugit culpa laudantium aliquam quasi minus laboriosam ullam mollitia consequuntur, corrupti numquam, inventore, obcaecati voluptatibus qui! Aliquid, delectus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>our-features</h2>
+        <div class="container">
+            <div class="feat">
+                <img src="images/1.jpg" alt=" " />
+                <h4>Development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore temporibus laboriosam, a voluptates eligendi unde iusto autem molestiae quisquam.
+                </p>
+            </div>
+            <div class="feat">
+                <img src="images/2.jpg" alt=" " />
+                <h4>Development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore temporibus laboriosam, a voluptates eligendi unde iusto autem molestiae quisquam.
+                </p>
+            </div>
+            <div class="feat">
+                <img src="images/3.jpg" alt=" " />
+                <h4>Development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore temporibus laboriosam, a voluptates eligendi unde iusto autem molestiae quisquam.
+                </p>
+            </div>
+            <div class="feat">
+                <img src="images/4.jpg" alt=" " />
+                <h4>Development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore temporibus laboriosam, a voluptates eligendi unde iusto autem molestiae quisquam.
+                </p>
+            </div>
+            <div class="feat">
+                <img src="images/5.jpg" alt=" " />
+                <h4>Development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore temporibus laboriosam, a voluptates eligendi unde iusto autem molestiae quisquam.
+                </p>
+            </div>
+            <div class="feat">
+                <img src="images/6.jpg" alt=" " />
+                <h4>Development</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore temporibus laboriosam, a voluptates eligendi unde iusto autem molestiae quisquam.
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="ts">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui cumque voluptatem aspernatur itaque molestias at illo, magnam explicabo praesentium?
+                </p>
+                <div class="personal">
+                    <img src="https://placehold.it/80/ddd" alt="" />
+                    <h4>Asaad-Hayani</h4>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="ts">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui cumque voluptatem aspernatur itaque molestias at illo, magnam explicabo praesentium?
+                </p>
+                <div class="personal">
+                    <img src="https://placehold.it/80/ddd" alt="" />
+                    <h4>Asaad-Hayani</h4>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+            <div class="ts">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui cumque voluptatem aspernatur itaque molestias at illo, magnam explicabo praesentium?
+                </p>
+                <div class="personal">
+                    <img src="https://placehold.it/80/ddd" alt="" />
+                    <h4>Asaad-Hayani</h4>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>contact</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Full Name" />
+                    <input type="text" placeholder="Email" />
+                    <input type="text" placeholder="Phone" />
+                    <input type="text" placeholder="Address" />
+                </div>
+                <div class="right">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Descreption"></textarea>
+                    <input type="submit" value="Send" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>All Copyright <span>Asaad Hayani</span></footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
